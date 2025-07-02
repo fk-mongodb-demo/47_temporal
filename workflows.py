@@ -9,7 +9,6 @@ with workflow.unsafe.imports_passed_through():
     from activities import BankingActivities
     from shared import PaymentDetails
 
-
 @workflow.defn
 class MoneyTransfer:
     @workflow.run

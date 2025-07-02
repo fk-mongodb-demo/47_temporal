@@ -10,6 +10,7 @@ class PaymentDetails:
     target_account: str
     amount: int
     reference_id: str
+    session_id: str = ""
 
 
 # @@@SNIPEND

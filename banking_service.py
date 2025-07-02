@@ -1,13 +1,13 @@
-""" This code simulates a client for a hypothetical banking service.
+"""This code simulates a client for a hypothetical banking service.
 It supports both withdrawals and deposits, and generates a random transaction ID for each request.
 
 Tip: You can modify these functions to introduce delays or errors, allowing
 you to experiment with failures and timeouts.
 """
+
 import uuid
 from dataclasses import dataclass
 from typing import NoReturn
-
 
 @dataclass
 class InsufficientFundsError(Exception):
